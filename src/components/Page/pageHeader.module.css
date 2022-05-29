@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--greyLight);
+  padding: 0 calc(50vw - 600px);
+}
+
+.link {
+  line-height: 43px;
+  color: var(--grey);
+  font-weight: 400;
+}
+
+.chevron {
+  margin: 0 10px;
+}

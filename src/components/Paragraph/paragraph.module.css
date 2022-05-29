@@ -1,0 +1,40 @@
+
+.paragraph {
+  font-family: 'HK Grotesk';
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .paragraph {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.verticalSpaceTop {
+  padding-top: 1em;
+}
+
+.verticalSpaceTopLarge {
+  padding-top: 2em;
+}
+
+.verticalSpaceBottom {
+  padding-bottom: 1em;
+}
+
+.verticalSpaceBottomLarge {
+  padding-bottom: 2em;
+}
+
+.center {
+  text-align: center;
+}
+
+.white {
+  color: white;
+}

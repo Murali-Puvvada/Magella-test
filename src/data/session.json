@@ -1,0 +1,25 @@
+{
+  "advisoryUserUuid": "aa0b13f4-9afa-4360-bf28-9c4f95bd7850",
+  "creationDate": "2021-06-16T11:11:03.836+00:00",
+  "sessionId": "g7323a33-5953-443c-bb15-19hfddb69288",
+  "freeText": "Kalle",
+  "collectionStartedResponses": [
+    {
+      "collectionId": "7e76ed6ed32e5cc684c4cf771629c4fd",
+      "sessionId": "g7323a33-5953-443c-bb15-19hfddb69288",
+      "creationDate": "2021-06-23T13:49:52.390+00:00",
+      "insuranceCompany": "se-if",
+      "status": "COMPLETED",
+      "errormsg": null
+    },
+    {
+      "collectionId": "bdb9dbc157d86fcdc9fc6d4a938b0085",
+      "sessionId": "g7323a33-5953-443c-bb15-19hfddb69288",
+      "creationDate": "2021-06-23T12:06:50.243+00:00",
+      "insuranceCompany": "se-ica",
+      "status": "COMPLETED",
+      "errormsg": null
+    }
+  ],
+  "numberOfInsurances": 2
+}

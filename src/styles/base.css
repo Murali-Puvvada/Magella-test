@@ -1,0 +1,114 @@
+@import url(//db.onlinewebfonts.com/c/534a5368a01e6e66e93f2d572868709a?family=HK+Grotesk);
+
+@font-face {
+  font-family: "HK Grotesk";
+  src: url("//db.onlinewebfonts.com/t/534a5368a01e6e66e93f2d572868709a.eot");
+  src: url("//db.onlinewebfonts.com/t/534a5368a01e6e66e93f2d572868709a.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/534a5368a01e6e66e93f2d572868709a.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/534a5368a01e6e66e93f2d572868709a.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/534a5368a01e6e66e93f2d572868709a.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/534a5368a01e6e66e93f2d572868709a.svg#HK Grotesk")
+      format("svg");
+}
+*,
+*:after,
+*::before {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: var(--greyLightest);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+
+  min-height: 100%;
+
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  touch-action: manipulation;
+
+  font-family: "HK Grotesk";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--black);
+}
+
+@media (min-width: 768px) {
+  html,
+  body {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+iframe {
+  width: 100%;
+  border: none;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ol,
+ul {
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--greenDark);
+  font-weight: bold;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.green path {
+  fill: var(--green);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.noscroll {
+  overflow: hidden;
+}
+
+.disable-link {
+  pointer-events: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}

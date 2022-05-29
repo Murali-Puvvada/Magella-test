@@ -1,0 +1,32 @@
+{
+  "homeInsurances": {
+    "sv": "Hemförsäkringar",
+    "no": "Hjem forsikring",
+    "dk": "Hjemforsikring",
+    "en": "Home insurances"
+  },
+  "vehicleInsurances": {
+    "sv": "Fordonsförsäkringar",
+    "no": "Bilforsikring",
+    "dk": "Køretøjsforsikring",
+    "en": "Vehicle insurances"
+  },
+  "personInsurances": {
+    "sv": "Personförsäkringar",
+    "no": "Personlig forsikring",
+    "dk": "Personlig forsikring",
+    "en": "Person insurances"
+  },
+  "animalInsurances": {
+    "sv": "Djurförsäkringar",
+    "no": "Dyreforsikring",
+    "dk": "Dyreforsikring",
+    "en": "Animal insurances"
+  },
+  "otherInsurances": {
+    "sv": "Övriga försäkringar",
+    "no": "Annen forsikring",
+    "dk": "Anden forsikring",
+    "en": "Other insurances"
+  }
+}

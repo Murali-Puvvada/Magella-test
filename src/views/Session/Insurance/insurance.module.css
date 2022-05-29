@@ -1,0 +1,179 @@
+.container{
+    padding: 0% 10%;
+}
+
+.smallcontainer{
+    padding: 0% 3%;
+}
+
+.headerflex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 7% 0%;
+}
+
+.logo {
+    flex: 1 0 30px;
+    margin-right: 10px;
+    height: 50px;
+}
+
+.alignItems{
+    flex-direction: column;
+}
+
+.alignItems svg{
+    width: 0.7rem;
+}
+
+.alignItems span{
+    background-color: #FFF1CE;
+    font-size: 0.75rem;
+}
+
+.btnmain{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.btnmain button{
+    color: var(--green);
+    font-size: 1rem;
+    margin: 2px 2px;
+    padding: 5px 2px;
+    border: 1px solid var(--green);
+    width: 15rem
+}
+
+.btnmain span{
+    padding-right: 7px;
+}
+
+.btnmain svg{
+    width: 1rem;
+}
+
+.maindata{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.maindata div{
+    flex-direction: column;
+    text-align: center;
+}
+
+.maindata div h2{
+    margin: 0.25rem 0 0.6rem 0;
+}
+
+.insdata p{
+    color: var(--grey);
+    font-size: 0.75rem;
+}
+
+.insdata h2{
+    font-size: 1.25rem;
+}
+
+
+.insdetails{
+    display: flex;
+    width: 400px;
+}
+
+.instable table{
+    width: 22rem;
+}
+
+.instable td{
+    border-bottom: solid 0.5px grey;
+    padding: 6px 0px;
+}
+
+.instable td:nth-child(2){
+    padding-left: 2.5rem;
+    text-align: right;
+}
+
+.instable h3{
+    margin: 1rem 0 0.6rem 0;
+}
+
+.instable h5,h6{
+    margin: 0;
+}
+
+.instable h6{
+    color:var(--grey)
+}
+
+.extent{
+    width: 27rem;
+    background-color: white;
+    margin: 1.25rem 0rem;
+    padding: 0.25rem 1rem 1.25rem;
+    margin-left: auto;
+}
+
+.extent td{
+    border-bottom: solid 0.5px grey;
+    padding: 6px 0px;
+}
+
+.extent span{
+    font-size: 23px;
+    padding-right: 0.25rem ;
+}
+
+.extent h2{
+    margin-bottom: 0;
+}
+
+.extent h3{
+    margin: 1rem 0 0.6rem 0;
+}
+
+.extentflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.extenthead{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.extent a{
+    color: var(--green);
+    font-size: 12px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.btncompare{
+    display: flex;
+    color: white;
+    background-color: var(--greenDark);
+    padding: 4px 14px;
+    line-height: 1.3;
+    border: none;
+    border-radius: 5px;
+    flex-direction: row;
+
+}
+
+.btncompare img{
+    transform: scale(0.9);
+    margin-right: 4px;
+}

@@ -1,0 +1,62 @@
+{
+  "root": true,
+  "extends": [
+    "eslint-config-airbnb/base",
+    "eslint-config-airbnb/rules/react",
+    "eslint-config-airbnb/rules/react-a11y"
+  ],
+  "env": {
+    "browser": true
+  },
+  "parser": "@babel/eslint-parser",
+  "plugins": ["compat"],
+  "globals": {
+    "API_URL": true
+  },
+  "settings": {
+    "polyfills": ["fetch"],
+    "import/resolver": "webpack"
+  },
+  "rules": {
+    "compat/compat": "error",
+    "import/prefer-default-export": "off",
+    "max-len": [
+      "error",
+      {
+        "code": 120
+      }
+    ],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1
+      }
+    ],
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always-and-inside-groups",
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index"
+        ],
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ],
+    "no-tabs": 0,
+    "no-unexpected-multiline": "error",
+    "react/destructuring-assignment": ["off"],
+    "react/jsx-fragments": ["off"],
+    "react/jsx-indent": ["error", 2],
+    "react/jsx-indent-props": ["error", 2],
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off"
+  }
+}

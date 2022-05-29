@@ -1,0 +1,38 @@
+{
+  "pageTitle": {
+    "sv": "Försäkringar",
+    "no": "Forsikring",
+    "dk": "Forsikring",
+    "en": "Insurances"
+  },
+  "statusLog": {
+    "sv": "Statuslogg",
+    "no": "Statuslogg",
+    "dk": "Statuslog",
+    "en": "Status log"
+  },
+  "collectionsTitle": {
+    "sv": "Inhämtningar från användaren",
+    "no": "Samling fra brukeren",
+    "dk": "Samling fra brugeren",
+    "en": "Collections from the user"
+  },
+  "company": {
+    "sv": "Bolag",
+    "no": "Bokag",
+    "dk": "Bokag",
+    "en": "Company"
+  },
+  "date": {
+    "sv": "Datum",
+    "no": "Dato",
+    "dk": "Dato",
+    "en": "Date"
+  },
+  "copyButton": {
+    "sv": "Kopiera sessionsid",
+    "no": "Kopier økt-ID",
+    "dk": "Kopiér sessions-id",
+    "en": "Copy session id"
+  }
+}

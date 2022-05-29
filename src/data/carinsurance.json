@@ -1,0 +1,240 @@
+
+{
+  "insurance":{
+    "id":null,
+    "creationDate":null,
+    "updatedDate":null,
+    "externalId":"e9286b22-9c2c-4708-8b38-ae1a6831c027",
+    "insuranceName":"Helförsäkring",
+    "insuranceType":"vehicleInsurance",
+    "insuranceSubType":"carInsurance",
+    "insuranceCompany":"se-trygg-hansa",
+    "paidUntil":"2022-05-01",
+    "startDate":null,
+    "premiumFrequency":"Halvår",
+    "premiumAmountTerm":null,
+    "premiumAmountYear":"6062",
+    "discountAmount":null,
+    "discountPercentage":"5",
+    "membership":null,
+    "deductible":null,
+    "insuranceNumber":"037 063 927",
+    "insuranceHolderName":"Göran andersson",
+    "insuranceHolderAddress":"Enstigen 52",
+    "paymentMethod":"Faktura",
+    "employerPaid":false,
+    "coming":false,
+    "otherInsuranceHolder":true,
+    "errorReported":false,
+    "registrationNo":"JME353",
+    "carBrand":"MINI",
+    "carModel":"ONE",
+    "maxMileage":"Max 1500 mil/år",
+    "deductibleTraffic":null,
+    "deductibleFire":null,
+    "deductibleTowing":null,
+    "deductibleVehicleDamage":"3000",
+    "deductibleGlass":null,
+    "deductibleClumsy":null,
+    "deductibleDiscountAmount":null,
+    "rentalIncluded":false,
+    "addOns":"Självriskrabatt",
+    "insuranceLevel":"BASE"
+  },
+  "parameters":[
+    {
+      "parameterDescription":"Trafikförsäkringen lämnar ersättning för skador på andra personer samt egendom som du orsakat med bilen. Du som bilägare måste ha trafikförsäkring enligt lag. Trafikförsäkringen ersätter även skador på dig som förare, medpassagerare och personer utanför bilen. Med trafikförsäkringen får du däremot ingen ersättning för skador på ditt eget fordon eller egendom i fordonet.",
+      "parameterDisplayName":"Trafik",
+      "parameterName":"traffic",
+      "value":"true",
+      "parameterGroup":"Grundskydd",
+      "parameterGroupOrder":1
+    },
+    {
+      "parameterDescription":"Omfattar plötsliga fel som påverkar bilens funktion. Exempel kan vara fel på till exempel motor, elektronik, växellåda och kraftöverföring. Omfattningen är kopplad till bilens ålder och körsträcka.",
+      "parameterDisplayName":"Maskinskada",
+      "parameterName":"machine",
+      "value":"true",
+      "parameterGroup":"Grundskydd",
+      "parameterGroupOrder":1
+    },
+    {
+      "parameterDescription":"Försäkringen täcker stöld eller tillgrepp av den försäkrade bilen och dess tillbehör. Du kan i vissa fall även få ersättning för skador på bilen som uppkommit i samband med stöld eller inbrottsförsök.",
+      "parameterDisplayName":"Stöld",
+      "parameterName":"theft",
+      "value":"true",
+      "parameterGroup":"Grundskydd",
+      "parameterGroupOrder":1
+    },
+    {
+      "parameterDescription":"Ersätter skador på din bil som orsakats av brand anlagd av tredje man, blixtnedslag, explosion eller brand som kommit lös.",
+      "parameterDisplayName":"Brand",
+      "parameterName":"fire",
+      "value":"true",
+      "parameterGroup":"Grundskydd",
+      "parameterGroupOrder":1
+    },
+    {
+      "parameterDescription":"Kan ge ersättning för skador på bilens glasdelar, det vill säga vindruta, sidoruta, bakruta eller siktruta om de krossas eller spräcks. Du får ersättning för kostnaden att byta eller reparera ruta efter till exempel stenskott.",
+      "parameterDisplayName":"Glas",
+      "parameterName":"glass",
+      "value":"true",
+      "parameterGroup":"Grundskydd",
+      "parameterGroupOrder":1
+    },
+    {
+      "parameterDescription":"Om du får ett driftstopp så får du hjälp med bogsering av bilen till närmaste verkstad, samt ersättning för hemresa eller vidare resa för personerna i bilen. Vissa undantag brukar finnas för orsaken till driftstoppet.",
+      "parameterDisplayName":"Räddning",
+      "parameterName":"rescue",
+      "value":"true",
+      "parameterGroup":"Grundskydd",
+      "parameterGroupOrder":1
+    },
+    {
+      "parameterDescription":"Du kan få ersättning för kostnader som gäller tvister som rör dig som bilförare.",
+      "parameterDisplayName":"Rättsskydd",
+      "parameterName":"legal",
+      "value":"true",
+      "parameterGroup":"Grundskydd",
+      "parameterGroupOrder":1
+    },
+    {
+      "parameterDescription":"Kan ge dig ersättning som rör skador på bilens inredning, beroende på vad som har orsakat skadan. Vanligtvis ersätts inte skador som orsakats av djur.",
+      "parameterDisplayName":"Inredning",
+      "parameterName":"interiorDamage",
+      "value":"true",
+      "parameterGroup":"Grundskydd",
+      "parameterGroupOrder":1
+    },
+    {
+      "parameterDescription":"Täcker behandlingskostnad för krishjälp efter en trafikolycka, om du skulle drabbas av psykiska problem. Många försäkringsbolag erbjuder ett antal betalda terapitillfällen.",
+      "parameterDisplayName":"Krishjälp",
+      "parameterName":"crisis",
+      "value":"true",
+      "parameterGroup":"Grundskydd",
+      "parameterGroupOrder":1
+    },
+    {
+      "parameterDescription":"Du får ersättning för skador på bilen som uppstått vid trafikolycka, skadegörelse, annan olycka eller annan yttre olyckshändelse. För bilar med gällande vagnskadegaranti ingår detta skydd i garantin. För mer information, se din bils garantibevis.",
+      "parameterDisplayName":"Vagnskada",
+      "parameterName":"vehicleDamage",
+      "value":"true",
+      "parameterGroup":"Grundskydd",
+      "parameterGroupOrder":1
+    },
+    {
+      "parameterDescription":"Detta tillägg ersätter förlorad nyckel eller nyckelkort. Tillägget ersätter ny nyckel eller omkodning av nyckelkort upp till en viss kostnad.",
+      "parameterDisplayName":"Nyckelförlust",
+      "parameterName":"lossOfKeys",
+      "value":"true",
+      "parameterGroup":"Grundskydd",
+      "parameterGroupOrder":1
+    },
+    {
+      "parameterDescription":"Om du tankat bilen med fel typ av bränsle eller fyllt annan behållare med fel medel (till exempel  olja i tanken för spolarvätska), får du ersättning för nödvändiga kostnader för rengöring av tank, behållare, ledningar och byte av filter upp till en viss nivå. Denna ersättning är ofta kopplad till bilens ålder och miltal.",
+      "parameterDisplayName":"Feltankning",
+      "parameterName":"wrongFuel",
+      "value":"true",
+      "parameterGroup":"Grundskydd",
+      "parameterGroupOrder":1
+    },
+    {
+      "parameterDescription":"Du ersätts med ny bil om bilen är yngre än 1 år och har körts mindre än 2000 mil, du är första ägare av bilen och kostnaden för reparationen överstiger 50% av nypris.",
+      "parameterDisplayName":"Nyvärde",
+      "parameterName":"fullValue",
+      "value":"true",
+      "parameterGroup":"Grundskydd",
+      "parameterGroupOrder":1
+    },
+    {
+      "parameterDescription":"Hyrbilsförsäkring hjälper dig med en hyrbil om din bil blir obrukbar på grund av ersättningsbar skada.",
+      "parameterDisplayName":"Hyrbil",
+      "parameterName":"rental",
+      "value":"false",
+      "parameterGroup":"Tillägg",
+      "parameterGroupOrder":2
+    },
+    {
+      "parameterDescription":"Om du får ett driftstopp får du, utan någon självrisk, hjälp med bärgning av bilen samt tillgång till hyrbil under en period. Assistans täcker även andra orsaker till driftstopp än räddning, till exempel om du får slut på drivmedel. Avser ofta ett begränsat antal användningstillfällen per år.",
+      "parameterDisplayName":"Assistans",
+      "parameterName":"assistance",
+      "value":"false",
+      "parameterGroup":"Tillägg",
+      "parameterGroupOrder":2
+    },
+    {
+      "parameterDescription":"En förlängning av års- och miltalsbegränsningen för maskinskadeskyddet som finns i din försäkring.",
+      "parameterDisplayName":"Utökad maskinskada",
+      "parameterName":"extendedMachine",
+      "value":"false",
+      "parameterGroup":"Tillägg",
+      "parameterGroupOrder":2
+    },
+    {
+      "parameterDescription":"Kan eliminera eller ge rabatt på självrisken om något skulle inträffa och som du kan begära ersättning för i din försäkring. Med detta tillägg kan du därför få betala mindre i självrisk om du skulle behöva använda försäkringen eller få ersättning vid reparation. Kan även innehålla ett skydd som ger dig mycket mindre självrisk vid djurkollision.",
+      "parameterDisplayName":"Självriskrabatt",
+      "parameterName":"deductibleDiscount",
+      "value":"false",
+      "parameterGroup":"Tillägg",
+      "parameterGroupOrder":2
+    },
+    {
+      "parameterDescription":"Kan ge ersättning om föraren eller passagerare skadas och får bestående men. Vissa försäkringar innehåller även ersättning vid sjukhusvistelse eller om någon skulle omkomma vid en trafikolycka.",
+      "parameterDisplayName":"Trafikolycksfall (förar- och passagerarolycksfall)",
+      "parameterName":"driverPassengerAccident",
+      "value":"false",
+      "parameterGroup":"Tillägg",
+      "parameterGroupOrder":2
+    },
+    {
+      "parameterDescription":"Du ersätts med ny bil om bilen är yngre än 2 år och har körts mindre än 4000 mil samt att du är första ägare av bilen och kostnaden för reparation överstiger en viss nivå av nypris.",
+      "parameterDisplayName":"Nyvärde utökat",
+      "parameterName":"fullValueExtended",
+      "value":"false",
+      "parameterGroup":"Tillägg",
+      "parameterGroupOrder":2
+    },
+    {
+      "parameterDescription":"När bilen ska repareras efter ersättningsbar skada, kan bilen lämnas och hämtas på verkstad av ditt försäkringsbolag. Begränsat till vissa geografiska områden.",
+      "parameterDisplayName":"Hämtservice",
+      "parameterName":"pickupService",
+      "value":"true",
+      "parameterGroup":"Tillägg",
+      "parameterGroupOrder":2
+    },
+    {
+      "parameterDescription":"Detta tillägg ger dig privat sjukvård om du skulle vara med om en trafikolycka. Kan även täcka passagerare i bilen.",
+      "parameterDisplayName":"Privatsjukvård",
+      "parameterName":"privateCare",
+      "value":"false",
+      "parameterGroup":"Tillägg",
+      "parameterGroupOrder":2
+    },
+    {
+      "parameterDescription":"Om du skulle råka ut för en djurkollision så får du rabatt på din självrisk. Om du enbart har halvförsäkring så får du en extra ersättning för reparation efter djurkollision.",
+      "parameterDisplayName":"Självriskrabatt djurkollision",
+      "parameterName":"deductibleDiscountAnimalCollision",
+      "value":"false",
+      "parameterGroup":"Tillägg",
+      "parameterGroupOrder":2
+    },
+    {
+      "parameterDescription":"Om du skulle råka ut för skadegörelse så får du rabatt på din självrisk. Om du enbart har halvförsäkring så får du en extra ersättning för reparation efter skadegörelse.",
+      "parameterDisplayName":"Självriskrabatt skadegörelse",
+      "parameterName":"deductibleDiscountVandalism",
+      "value":"false",
+      "parameterGroup":"Tillägg",
+      "parameterGroupOrder":2
+    },
+    {
+      "parameterDescription":"Du kan få ytterligare rabatt på självrisk för exempelvis räddning, brand, stöld, glas eller andra skador. Se ditt försäkringsbrev för exakta självrisker.",
+      "parameterDisplayName":"Övrig självriskrabatt",
+      "parameterName":"deductibleDiscountOther",
+      "value":"false",
+      "parameterGroup":"Tillägg",
+      "parameterGroupOrder":2
+    }
+  ],
+  "displayType":"Bilförsäkring",
+  "termsUrl":"/insurance-terms/terms/se-trygg-hansa/carInsurance"
+}

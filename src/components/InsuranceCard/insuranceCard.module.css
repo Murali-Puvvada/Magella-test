@@ -1,0 +1,138 @@
+
+.card {
+  display: block;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  transition: box-shadow 250ms ease;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08), 0px 6px 40px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.card:hover {
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.14), 0px 7px 40px rgba(0, 0, 0, 0.12);
+}
+
+.card + .card {
+  margin-top: 15px;
+}
+
+.future p,
+.future h3,
+.future h4,
+.future svg {
+  opacity: 0.6;
+}
+
+.top,
+.bottom {
+  display: flex;
+  padding: 15px 15px 10px 15px;
+}
+
+.top ~ .bottom {
+  border-top: 1px solid var(--greyLight);
+}
+
+.logo {
+  flex: 1 0 30px;
+  margin-right: 10px;
+  height: 30px;
+}
+
+.topContent {
+  flex: 1 1 100%;
+  padding-right: 80px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.title {
+  position: relative;
+}
+
+.title span {
+  display: block;
+}
+
+.status {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  letter-spacing: -0.1px;
+  color: var(--black);
+  opacity: 1 !important;
+
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status::before {
+  content: '';
+  position: absolute;
+  left: -12px;
+  top: calc(50% - 3px);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--green);
+}
+
+.statusGreen::before {
+  background-color: var(--green);
+}
+
+.statusYellow::before {
+  background-color: var(--yellowDark);
+}
+
+.statusRed::before {
+  background-color: var(--redDark);
+}
+
+.insurance-card__status + span {
+  margin-right: 100px;
+}
+
+.info {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--greyDark);
+  margin-bottom: 0;
+}
+
+.info:first-letter {
+  text-transform: capitalize;
+}
+
+.bottom h3 {
+  display: inline-block;
+}
+
+.bottom .button {
+  display: inline-block;
+}
+
+.bottom .button + .button {
+  margin-left: 5px;
+}
+
+.bottomIcon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+
+.dateText {
+  font-size: 14px;
+  color: var(--black);
+}
+

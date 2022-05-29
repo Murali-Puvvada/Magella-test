@@ -1,0 +1,39 @@
+
+.alignItems {
+  display: flex;
+  align-items: center;
+}
+
+.buttonWithIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  display: flex;
+  border-bottom: 2px solid var(--greyLighter);
+}
+
+.label p {
+  line-height: 40px;
+}
+
+.label p:first-child {
+  flex: auto;
+}
+
+.label p:nth-child(2) {
+  flex: 0 0 190px;
+}
+
+.label p:last-child {
+  flex: 0 0 160px;
+}
+
+.hiddenTextArea {
+  opacity: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}

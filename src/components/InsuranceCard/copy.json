@@ -1,0 +1,50 @@
+{
+  "activeStatus": {
+    "sv": "Aktiv",
+    "no": "Aktiv",
+    "dk": "Aktiv",
+    "en": "Active"
+  },
+  "isFutureStatus": {
+    "sv": "Börjar snart gälla",
+    "no": "Snart aktiv",
+    "dk": "Snart aktiv",
+    "en": "Will soon be active"
+  },
+  "expireSoonStatus": {
+    "sv": "Går snart ut",
+    "no": "Går snart ut",
+    "dk": "Går snart ud",
+    "en": "Will expire soon"
+  },
+  "hasExpiredStatus": {
+    "sv": "Har gått ut",
+    "no": "Har utgått",
+    "dk": "Er udløbet",
+    "en": "Has expired"
+  },
+  "activeFrom": {
+    "sv": "Aktiv från",
+    "no": "Aktiv fra",
+    "dk": "Aktiv fra",
+    "en": "Active from"
+  },
+  "expired": {
+    "sv": "Gick ut",
+    "no": "Gikk ut",
+    "dk": "Gik ud",
+    "en": "Expired"
+  },
+  "paidUntil": {
+    "sv": "Betald till",
+    "no": "Betalt til",
+    "dk": "Betalt til",
+    "en": "Paid until"
+  },
+  "otherInsuranceHolder": {
+    "sv": "Annan försäkringstagare",
+    "no": "Annen forsikringshaver",
+    "dk": "Anden forsikringsindehaver",
+    "en": "Other insurance holder"
+  }
+}
